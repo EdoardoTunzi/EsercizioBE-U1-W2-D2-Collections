@@ -17,15 +17,15 @@ public class RubricaTelefonica {
         printRubrica();
 
         // Rimozione di un contatto
-        System.out.println("\nRimuovo il contatto 'Mario':");
+        System.out.println("Rimuovo il contatto 'Mario':");
         remove("Mario");
 
         // Stampa della rubrica aggiornata
-        System.out.println("\nRubrica dopo la rimozione:");
+        System.out.println("Rubrica dopo la rimozione:");
         printRubrica();
 
         // Ricerca di un contatto tramite numero di telefono
-        System.out.println("\nCerco il contatto con numero '3456789':");
+        System.out.println("Cerco il contatto con numero '3456789':");
         cercaContatto("3456789");
 
         // Ricerca di un numero tramite nome
