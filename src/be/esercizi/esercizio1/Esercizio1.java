@@ -27,6 +27,8 @@ public class Esercizio1 {
         System.out.println("Programma terminato");
     }
 
+
+
     public static void addWordsToList(int numWords){
         System.out.println("Inserisci " + numWords + " parole, una per volta");
 
@@ -34,7 +36,7 @@ public class Esercizio1 {
             System.out.println("Inserisci la " +(i+1)+ "° parola");
             String parola = scanner.nextLine();
 
-           /* if (listaParole.contains(parola)) {
+            /* if (listaParole.contains(parola)) {
                 System.out.println("Duplicato: " + parola);
             }
             listaParole.add(parola);*/

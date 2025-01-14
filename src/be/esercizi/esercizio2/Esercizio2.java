@@ -30,7 +30,7 @@ public class Esercizio2 {
         for (int i = 0; i < num; i++) {
             randomNumslist.add(rand.nextInt(0,101));
         }
-
+        // ordino la lista con il sort()
         Collections.sort(randomNumslist);
         return randomNumslist;
     }
